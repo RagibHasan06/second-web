@@ -54,3 +54,42 @@
     font-weight: 600;
     color: #005FAC;
 }
+
+/* First section styles */
+.fail {
+    display: flex;
+    gap: 105px;
+    margin-top: 140px;
+    height: auto;
+
+}
+
+.fail img {
+    max-width: 450px;
+    max-height: 898px;
+    margin-left: 180px;
+}
+
+.fail-head {
+    padding-top: 130px;
+}
+
+.fail-point img {
+    display: list-item, flex;
+    margin-left: 0px;
+}
+
+.fail-head {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.fail-point, .fail-des{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+
+}
