@@ -1,0 +1,56 @@
+.work-sans {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" <width>;
+}
+
+/* Header stykes starts */
+.header {
+    height: auto;
+    position: relative;
+    max-width: 1600px;
+    max-height: 808px;
+}
+
+.header img {
+    display: block;
+    width: 100%;
+}
+
+.h-container {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    text-align: right;
+    margin-right: 0px;
+}
+
+.one {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.two {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.three {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+}
