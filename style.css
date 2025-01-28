@@ -1,3 +1,4 @@
+/* Common shared styles */
 .work-sans {
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
@@ -6,8 +7,12 @@
     font-variation-settings:
         "wdth" <width>;
 }
+.main{
+    max-width: 1140px;
+    margin: 135px auto;
+}
 
-/* Header stykes starts */
+/* Header style starts */
 .header {
     height: auto;
     position: relative;
@@ -22,10 +27,12 @@
 
 .h-container {
     position: absolute;
-    top: 200px;
-    right: 200px;
+    top: 216px;
+    right: 230px;
+    max-width: 30%;
     text-align: right;
-    margin-right: 0px;
+
+   
 }
 
 .one {
@@ -38,7 +45,7 @@
 
 .two {
     color: #FFF;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 20px;
     margin-bottom: 20px;
@@ -58,25 +65,18 @@
 /* First section styles */
 .fail {
     display: flex;
-    gap: 105px;
+    gap: 130px;
     margin-top: 140px;
-    height: auto;
-
 }
 
-.fail img {
-    max-width: 450px;
-    max-height: 898px;
-    margin-left: 180px;
+.fail-container{
+    padding-top: 230px;
 }
-
-.fail-head {
-    padding-top: 130px;
-}
-
-.fail-point img {
-    display: list-item, flex;
+.fail-point> img {
+    display: list-item flex;
     margin-left: 0px;
+    line-height: 20px;
+
 }
 
 .fail-head {
@@ -86,10 +86,52 @@
     line-height: normal;
     margin-bottom: 15px;
 }
-.fail-point, .fail-des{
+
+.fail-point{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+}
+.fail-des {
     color: #444343;
     font-size: 16px;
     font-weight: 400;
     line-height: 23px;
 
+}
+
+/* My Plans section styles */
+.plans {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    margin-top: 60px;  
+}
+
+.skills {
+    text-align: center;
+}
+
+.me {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 160px;
+}
+
+.skill-head {
+    color: #151414;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.skill-des {
+    color: #737272;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0px;
 }
